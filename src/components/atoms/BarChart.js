@@ -42,7 +42,7 @@ function BarChart() {
                 // height={200}
                 options={{
                     responsive:true,
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                     title: {
                         display: true,
                         text: "Tweets per day"

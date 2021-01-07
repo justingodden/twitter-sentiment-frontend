@@ -194,6 +194,9 @@ h2 {
 
 .bottomDashboard__item {
     min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .temp {
@@ -205,6 +208,10 @@ h2 {
 .bar-chartIcon {
     height: 30px;
     width: 30px;
+}
+
+.tweet {
+    width: auto;
 }
 
 @media only screen and (max-width: 960px) {
@@ -266,4 +273,9 @@ h2 {
     .topDashboard__itemText {
         font-size: 12px;
     }
+
+    .tweet {
+        width: 100%;
+    }
+
 }

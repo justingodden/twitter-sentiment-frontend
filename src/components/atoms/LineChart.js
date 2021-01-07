@@ -39,7 +39,7 @@ function LineChart() {
                     maintainAspectRatio: false,
                     title: {
                         display: true,
-                        text: "% Positive or Neutral per day"
+                        text: "% Positive or Neutral tweets per day"
                     },
                     legend: {
                         display: false
