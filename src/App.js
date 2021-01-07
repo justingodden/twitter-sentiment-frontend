@@ -1,10 +1,11 @@
 import './App.css';
-import Dashboard from './views/Dashboard'
+import ContentBody from './views/ContentBody'
 
 function App() {
   return (
     <div className="app">
-      <Dashboard />
+      
+      <ContentBody />
     </div>
   );
 }
