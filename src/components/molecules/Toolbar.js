@@ -1,16 +1,36 @@
 import React from 'react'
-import ToolbarItem from '../atoms/ToolbarItem'
+import { FaChartBar, FaAngleDoubleRight } from "react-icons/fa";
 
-const items = [1,2,3,4,5]
+const items = ['bar-chart']
 
 function Toolbar() {
     return (
         <div className="toolbar" >
-            {
-                items.map(item => (
-                    <ToolbarItem text={item} src={require('../../images/logo.svg').default}/>
-                ))
-            }
+            <div className="toolbarItem">
+                <FaChartBar className="toolbarItem__icon"/>
+                <h3 className="toolbarItem__text">Dashboard</h3>
+            </div>
+            <div className="toolbarItem">
+                <FaAngleDoubleRight className="toolbarItem__icon"/>
+                <h3 className="toolbarItem__text">These</h3>
+            </div>
+            <div className="toolbarItem">
+                <FaAngleDoubleRight className="toolbarItem__icon"/>
+                <h3 className="toolbarItem__text">don't</h3>
+            </div>
+            <div className="toolbarItem">
+                <FaAngleDoubleRight className="toolbarItem__icon"/>
+                <h3 className="toolbarItem__text">do</h3>
+            </div>
+            <div className="toolbarItem">
+                <FaAngleDoubleRight className="toolbarItem__icon"/>
+                <h3 className="toolbarItem__text">anything</h3>
+            </div>
+            <div className="toolbarItem">
+                <FaAngleDoubleRight className="toolbarItem__icon"/>
+                <h3 className="toolbarItem__text">yet!</h3>
+            </div>
+            
         </div>
     )
 }
