@@ -226,7 +226,7 @@ h2 {
     height: 100%;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1190px) {
     .toolbar {
       display: none;
     }
@@ -297,6 +297,7 @@ h2 {
     .bottomDashboard__item, .topDashboard__item {
         margin: 10px 0px 10px 0px;
         padding: 0;
+        width: 100%;
         /* width: 280px; */
     }
 
