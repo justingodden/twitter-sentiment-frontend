@@ -8,7 +8,7 @@ function BottomDashboard() {
                 <h4 className="bottomDashboard__itemText">Most positive</h4>
                 <TweetEmbed
                     className="tweet"
-                    id="692527862369357824"
+                    id="1347517366826053634"
                     options={{
                         cards: 'hidden'
                     }}
