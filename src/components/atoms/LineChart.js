@@ -5,10 +5,9 @@ const data = {
   labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
   datasets: [
     {
-    //   label: 'My First dataset',
-      fill: true,
+      fill: 'start',
       lineTension: 0.2,
-      backgroundColor: 'rgba(255, 46, 245, .2)',
+      backgroundColor: 'rgba(255, 46, 245, .1)',
       borderColor: 'rgba(255, 46, 245, 1)',
       borderWidth:1,
       borderCapStyle: 'butt',

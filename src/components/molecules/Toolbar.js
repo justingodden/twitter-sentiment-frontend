@@ -1,8 +1,6 @@
 import React from 'react'
 import { FaChartBar, FaAngleDoubleRight } from "react-icons/fa";
 
-const items = ['bar-chart']
-
 function Toolbar() {
     return (
         <div className="toolbar" >

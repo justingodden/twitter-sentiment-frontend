@@ -21,7 +21,7 @@
     
     display: flex;
     flex-direction: column;
-    height: 90%;
+    height: 80%;
     width: 90%;
     max-width: 1400px;
     border-radius: 15px;
@@ -138,15 +138,21 @@ h2 {
     padding: 10px;
 }
 
-.topDashboard, .middleDashboard, .bottomDashboard {
+.dashboardHeader {
     display: flex;
-    position: relative;
+    flex-direction: column;
+    align-content: flex-start;
     width: 100%;
-    height: 100%;
-    justify-content: space-around;
+    padding: 0px 0 10px 30px;
 }
 
-.topDashboard__item, .bottomDashboard__item {
+.topDashboard, .middleDashboard, .bottomDashboard {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.topDashboard__item {
     width: 100%;
     background: rgba(255,255,255,.5);
     border-radius: 15px;
@@ -155,27 +161,39 @@ h2 {
     border-top: 1px solid rgba(255,255,255,0.8);
     border-left: 1px solid rgba(255,255,255,0.8);
     padding: 10px;
+}
+
+.bottomDashboard__item {
+    width: 100%;
+    background: rgba(255,255,255,.5);
+    border-radius: 15px;
+    margin: 0px 20px 20px 10px ;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255,255,255,0.8);
+    border-left: 1px solid rgba(255,255,255,0.8);
+    padding: 10px;
+    /* min-width: 250px; */
 }
 
 .middleDashboard__itemLeft {
     background: rgba(255,255,255,.5);
     /* position: relative; */
-    width: auto;
+    /* width: 100%; */
     border-radius: 15px;
     margin: 0px 20px 20px 10px ;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
     border-top: 1px solid rgba(255,255,255,0.8);
     border-left: 1px solid rgba(255,255,255,0.8);
-    padding: 10px;
+    /* padding: 10px; */
     flex: 0.6;
     min-height: 150px;
-    min-width: 270px;
+    /* min-width: 270px; */
 }
 
 .middleDashboard__itemRight {
     background: rgba(255,255,255,0.5);
     /* position: relative; */
-    width: auto;
+    /* width: 100%; */
     border-radius: 15px;
     margin: 0px 20px 20px 10px ;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
@@ -184,19 +202,12 @@ h2 {
     padding: 10px;
     flex: 0.4;
     min-height: 150px;
-    min-width: 270px;
+    /* min-width: 270px; */
 }
 
 .topDashboard {
     height: 100px;
     min-height: 100px;
-}
-
-.bottomDashboard__item {
-    min-height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
 }
 
 .temp {
@@ -211,12 +222,17 @@ h2 {
 }
 
 .tweet {
-    width: auto;
+    width: 100%;
+    height: 100%;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1080px) {
     .toolbar {
       display: none;
+    }
+
+    #mostRetweeted {
+        display: none;
     }
 }
 
@@ -227,28 +243,47 @@ h2 {
     }
 
     .contentBody {
-        /* height: 1300px; */
-        margin: 10px 20px 10px 20px;
-        padding: 10px 10px 10px 10px;
+        height: auto;
+        margin: 10px 5px 10px 5px;
+        padding: 10px 5px 10px 5px;
+    }
+
+    .mainContainer {
+        margin: 10px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
+        /* width: 300px; */
     }
     
     .dashboard {
-        margin: 10px 0 10px 0;
-        padding: 0 0 0 0;
+        margin: 10px 0px 10px 0px;
         padding: 10px 10px 10px 10px;
         /* width: 300px; */
+    }
+
+    .dashboardHeader {
+        /* display: flex;
+        flex-direction: column;
+        align-content: flex-start; */
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 15px;
     }
 
     .middleDashboard, .bottomDashboard {
       flex-direction: column;
       align-items: center;
-      /* height: 100%; */
+      width: 100%;
     }
   
-    .topDashboard, .middleDashboard, .bottomDashboard {
+    .topDashboard, .middleDashboard {
         padding: 0 0 0 0;
         margin: 0 0 0 0;
         /* width: 300px; */
+    }
+
+    .bottomDashboard__itemText {
+        margin: 10px 10px 10px 10px;
+        font-size: 12px;
     }
 
     .topDashboard__item {
@@ -260,14 +295,16 @@ h2 {
 
     .middleDashboard__itemLeft, .middleDashboard__itemRight,
     .bottomDashboard__item, .topDashboard__item {
-        margin: 10px 5px 10px 5px;
-        padding: 0 0 0 0;
+        margin: 10px 0px 10px 0px;
+        padding: 0;
         /* width: 280px; */
     }
 
-    .middleDashboard__itemLeft, .middleDashboard__itemRight,
+    /* .middleDashboard__itemLeft, .middleDashboard__itemRight, */
     .bottomDashboard__item {
         height: 120px;
+        /* padding: -50px; */
+        /* width: auto; */
     }
 
     .topDashboard__itemText {
@@ -275,7 +312,10 @@ h2 {
     }
 
     .tweet {
-        width: 100%;
+        display: none;
     }
 
+    #mostRetweeted {
+        display: flex;
+    }
 }

@@ -1,15 +1,16 @@
 import React from 'react'
+import { FaSearch } from "react-icons/fa";
 
 function Nav() {
     return (
         <div className="navBar">
             <div className="navBar__left">
-                <img className="navLogo" src={require('../../images/logo.svg').default} />
+                <img className="navLogo" src={require('../../images/logo.svg').default} alt=''/>
                 <h2>Sentient</h2>
             </div>
             <div className="navBar__right">
                 <form className="searchContainer">
-                    <span className="searchIcon"><i class="fa fa-search"></i></span>
+                    <FaSearch className="searchIcon" />
                     <input className="searchBar" type="search" placeholder="Search..." />
                 </form>
             </div>
