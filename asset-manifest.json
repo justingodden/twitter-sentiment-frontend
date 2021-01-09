@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/twitter-sentiment-frontend/static/css/main.8a45d8d3.chunk.css",
-    "main.js": "/twitter-sentiment-frontend/static/js/main.02a6595c.chunk.js",
-    "main.js.map": "/twitter-sentiment-frontend/static/js/main.02a6595c.chunk.js.map",
+    "main.css": "/twitter-sentiment-frontend/static/css/main.747ce1bd.chunk.css",
+    "main.js": "/twitter-sentiment-frontend/static/js/main.9aae5576.chunk.js",
+    "main.js.map": "/twitter-sentiment-frontend/static/js/main.9aae5576.chunk.js.map",
     "runtime-main.js": "/twitter-sentiment-frontend/static/js/runtime-main.1d62da0d.js",
     "runtime-main.js.map": "/twitter-sentiment-frontend/static/js/runtime-main.1d62da0d.js.map",
     "static/js/2.021e55a1.chunk.js": "/twitter-sentiment-frontend/static/js/2.021e55a1.chunk.js",
     "static/js/2.021e55a1.chunk.js.map": "/twitter-sentiment-frontend/static/js/2.021e55a1.chunk.js.map",
     "index.html": "/twitter-sentiment-frontend/index.html",
-    "static/css/main.8a45d8d3.chunk.css.map": "/twitter-sentiment-frontend/static/css/main.8a45d8d3.chunk.css.map",
+    "static/css/main.747ce1bd.chunk.css.map": "/twitter-sentiment-frontend/static/css/main.747ce1bd.chunk.css.map",
     "static/js/2.021e55a1.chunk.js.LICENSE.txt": "/twitter-sentiment-frontend/static/js/2.021e55a1.chunk.js.LICENSE.txt",
     "static/media/App.css": "/twitter-sentiment-frontend/static/media/background.e2086f3b.jpg",
     "static/media/logo.svg": "/twitter-sentiment-frontend/static/media/logo.d9aa38f3.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.1d62da0d.js",
     "static/js/2.021e55a1.chunk.js",
-    "static/css/main.8a45d8d3.chunk.css",
-    "static/js/main.02a6595c.chunk.js"
+    "static/css/main.747ce1bd.chunk.css",
+    "static/js/main.9aae5576.chunk.js"
   ]
 }
