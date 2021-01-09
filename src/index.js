@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import { TweetProvider } from './context/TweetContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TweetProvider>
+      <App />
+    </TweetProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
