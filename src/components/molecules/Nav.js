@@ -21,7 +21,7 @@ function Nav() {
     async function onSubmit (e) {
         e.preventDefault()
         setLoading(true)
-        await axios.post('http://127.0.0.1:5000/', search).
+        await axios.post('https://sentient-twitter.herokuapp.com/', search).
             then(res => res.data)
             .then((data) => {
                 setLoading(false)
