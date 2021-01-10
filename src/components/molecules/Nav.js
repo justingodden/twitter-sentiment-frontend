@@ -28,7 +28,7 @@ function Nav() {
                 setTweet(data)
             })
             .catch(err => {
-                alert("Sorry, theres been an error.")
+                alert("Something went wrong...")
                 setLoading(false)
                 })
             }
