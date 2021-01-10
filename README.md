@@ -1,5 +1,5 @@
 # Sentient - Twitter sentiment analysis dashboard app
-front-end code written in ReactJS
+front-end code written in ReactJS, deployed to [GitHub Pages](https://justingodden.github.io/twitter-sentiment-frontend/).
 
 The app provides a dashboard which can give a week's analysis of the public sentiment of your search-term, according to Twitter.
 
